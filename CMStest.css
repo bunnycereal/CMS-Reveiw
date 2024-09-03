@@ -1,12 +1,12 @@
 /* All areas have a basic:
 Background colour and size */
 #Head{
-    background-color: pink;
+    background-color: rgb(233, 156, 156);
     grid-area: header;
     text-align: center;
 }
 #side{
-    background-color: rgb(156, 156, 238);
+    background-color: rgb(103, 166, 225);
     grid-area: side;
     height: 300%;
     p{
@@ -16,7 +16,7 @@ Background colour and size */
 }
 /* Boxes for the 2nd portion of the body */
 #boxes{
-    background-color: rgb(175, 218, 175);
+    background-color: rgb(224, 224, 224);
     grid-area: boxes;
     height: 300%;
     display: flex;
@@ -26,13 +26,13 @@ Background colour and size */
 }
 #box1{
     margin: 10% 5% 5% 5%;
-    background-color: rgb(207, 114, 166);
+    background-color: rgb(247, 140, 64);
     width: 75%;
     height: 25%;
 }
 #box2{
     margin: 10% 5% 5% 5%;
-    background-color: rgb(207, 114, 166);
+    background-color: rgb(247, 140, 64);
     width: 75%;
     height: 25%
 }
