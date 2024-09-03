@@ -9,10 +9,13 @@ Background colour and size */
     background-color: rgb(103, 166, 225);
     grid-area: side;
     height: 300%;
-    p{
+    
+}
+#side p{
+   
         color: white;
         padding-left: 5%;
-    }
+    
 }
 /* Boxes for the 2nd portion of the body */
 #boxes{
