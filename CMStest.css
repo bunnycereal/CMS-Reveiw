@@ -1,0 +1,48 @@
+/* All areas have a basic:
+Background colour and size */
+#Head{
+    background-color: pink;
+    grid-area: header;
+    text-align: center;
+}
+#side{
+    background-color: rgb(156, 156, 238);
+    grid-area: side;
+    height: 300%;
+    p{
+        color: white;
+        padding-left: 5%;
+    }
+}
+/* Boxes for the 2nd portion of the body */
+#boxes{
+    background-color: rgb(175, 218, 175);
+    grid-area: boxes;
+    height: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#box1{
+    margin: 10% 5% 5% 5%;
+    background-color: rgb(207, 114, 166);
+    width: 75%;
+    height: 25%;
+}
+#box2{
+    margin: 10% 5% 5% 5%;
+    background-color: rgb(207, 114, 166);
+    width: 75%;
+    height: 25%
+}
+
+/* Grid Template for how to format the page */
+#grid{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "side boxes"
+    "side boxes"
+    "side boxes";
+}
